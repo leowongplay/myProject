@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="hk.edu.polyu.comp.comp2021.tms.model.GUI.SearchAndPrintPage.SearchAndPrintPanel">
+  <grid id="27dc6" binding="backgroundPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="211" y="20" width="540" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="7a048" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="dd2cc" class="javax.swing.JButton" binding="printTaskButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Print Task"/>
+            </properties>
+          </component>
+          <component id="4da8c" class="javax.swing.JButton" binding="printAllTasksButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Print All Tasks"/>
+            </properties>
+          </component>
+          <component id="9f43a" class="javax.swing.JButton" binding="printAllCriteriaButton1" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Print All Criteria"/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="4e9f5" class="javax.swing.JButton" binding="searchByCriteriaButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Search Criteria"/>
+            </properties>
+          </component>
+          <component id="bc971" class="javax.swing.JButton" binding="reportDurationButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Report Duration"/>
+            </properties>
+          </component>
+          <component id="33655" class="javax.swing.JButton" binding="reportEarliestFinishTimeButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Report Earliest Finish Time"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="4909c" class="javax.swing.JButton" binding="backToMainPageButton" default-binding="true">
+        <constraints border-constraint="South"/>
+        <properties>
+          <horizontalTextPosition value="0"/>
+          <text value="Back to controller page"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

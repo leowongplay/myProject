@@ -1,0 +1,47 @@
+SimpleTask Task1 descr1 55.0 
+SimpleTask Task2 deipon2 10.0 
+SimpleTask Task3 desion3 15.0 
+SimpleTask task2 boil-water 10.0 
+SimpleTask task3 abc 60.0 
+SimpleTask task4 bcd 20.0 Task1,task3
+SimpleTask task5 ewq 50.0 task4
+SimpleTask task0 bcd 20.0 task5
+SimpleTask task1 ewq 50.0 task0
+SimpleTask STask1 123 11.0 task2,task4
+SimpleTask STask2 abc 13.56 task2,task3,task4,STask1
+CompositeTask compo5 cde task3
+CompositeTask compo1 make-coffee compo5
+CompositeTask compo2 make-tea task5,task3
+CompositeTask compo3 make-lemonTeas task2,task4
+CompositeTask compo4 make-lemonTea compo3
+CompositeTask CTa hihihi task1
+Criterion Crite duration == 10.0
+Criterion d7 dd2 && dd3
+Criterion d8 dd4 && dd5
+Criterion d0 dd4 || dd5
+Criterion d9 d8 || d7
+Criterion dd2 duration > 10
+Criterion dd3 duration < 20
+Criterion dd4 duration > 50
+Criterion dd5 duration < 60
+Criterion dd6 duration != 10
+Criterion dd7 duration <= 20
+Criterion dd8 duration >= 50
+Criterion dn1 name contains "task20"
+Criterion dbc1 prerequisites contains STask1
+Criterion dbc2 name contains "task3"
+Criterion dbc3 subtasks contains task3
+Criterion dbc4 description contains boil-water
+Criterion dbc5 description contains ewq
+Criterion abc1 dp2  
+Criterion abc2 abc2  
+Criterion abc3 abc1  
+Criterion abc4 dp2  
+Criterion Crite2 duration > 1
+Criterion c2 name contains "task2"
+Criterion Cri3 duration == -1
+Criterion c10 duration >= 122121
+Criterion c11 duration >= 4
+Criterion c111 duration >= 4
+Criterion Cr4 duration == 10
+Criterion aaaa name contains "asd"
