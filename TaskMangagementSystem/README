@@ -1,5 +1,6 @@
 Introduction:
-    This is a Task mangagment system with GUI of course COMP2021 Object-oriented Programming.
+    A Task mangagment system with both GUI and command line control system
+    Course: COMP2021 Object-oriented Programming
     Project structure: Group project
 Languages:
     Java
