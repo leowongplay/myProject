@@ -1,0 +1,143 @@
+{
+  "properties": [
+    {
+      "name": "Go",
+      "position": 1,
+      "goMoney": 1500
+    },
+    {
+      "name": "Central",
+      "position": 2,
+      "price": 800,
+      "rent": 90
+    },
+    {
+      "name": "Wan Chai",
+      "position": 3,
+      "price": 700,
+      "rent": 65
+    },
+    {
+      "name": "Income Tax",
+      "position": 4,
+      "incomeTaxPercentage": 10.0
+    },
+    {
+      "name": "Stanley",
+      "position": 5,
+      "price": 600,
+      "rent": 60
+    },
+    {
+      "name": "In Jail/Just Visiting",
+      "position": 6,
+      "costOfEscape": 150,
+      "turnsNeededToEscape": 3
+    },
+    {
+      "name": "Shek O",
+      "position": 7,
+      "price": 400,
+      "rent": 10
+    },
+    {
+      "name": "Mong Kok",
+      "position": 8,
+      "price": 500,
+      "rent": 40
+    },
+    {
+      "name": "Chance",
+      "position": 9,
+      "addValue": 20,
+      "subtractValue": 30
+    },
+    {
+      "name": "Tsing Yi",
+      "position": 10,
+      "price": 400,
+      "rent": 15
+    },
+    {
+      "name": "Free Parking",
+      "position": 11
+    },
+    {
+      "name": "Shatin",
+      "position": 12,
+      "price": 700,
+      "rent": 75
+    },
+    {
+      "name": "Chance",
+      "position": 13,
+      "addValue": 20,
+      "subtractValue": 30
+    },
+    {
+      "name": "Tuen Mun",
+      "position": 14,
+      "price": 400,
+      "rent": 20
+    },
+    {
+      "name": "Tai Po",
+      "position": 15,
+      "price": 500,
+      "rent": 25
+    },
+    {
+      "name": "Go To Jail",
+      "position": 16
+    },
+    {
+      "name": "Sai Kung",
+      "position": 17,
+      "price": 400,
+      "rent": 10
+    },
+    {
+      "name": "Yuen Long",
+      "position": 18,
+      "price": 400,
+      "rent": 25
+    },
+    {
+      "name": "Chance",
+      "position": 19,
+      "addValue": 20,
+      "subtractValue": 30
+    },
+    {
+      "name": "Tai O",
+      "position": 20,
+      "price": 600,
+      "rent": 25
+    }
+  ],
+  "players": [
+    {
+      "name": "Player 1",
+      "money": 300.0,
+      "currSquare": "Tuen Mun",
+      "inJail": false,
+      "jailTurns": 0,
+      "properties": [
+        "Wan Chai",
+        "Mong Kok"
+      ]
+    },
+    {
+      "name": "Player 2",
+      "money": 250.0,
+      "currSquare": "Shatin",
+      "inJail": false,
+      "jailTurns": 0,
+      "properties": [
+        "Tsing Yi",
+        "Shatin"
+      ]
+    }
+  ],
+  "round": 4
+}
