@@ -1,0 +1,10 @@
+Introduction:
+    This is a online shopping application togther with client and server side function.
+    Course: COMP3211 Software engineering
+    Project structure: Group project
+Languages:
+    Java
+How to run:
+    1)Clone the project
+    2)Change the local host IP
+    3)Run the project at android studio and dowload it to the phone with android system
