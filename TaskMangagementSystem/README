@@ -1,8 +1,9 @@
 Introduction:
-    This is a Task mangagment system with GUI of course COMP2411 Database System .
+    This is a Task mangagment system with GUI of course COMP2021 Object-oriented Programming.
+    Project structure: Group project
 Languages:
     Java
 How to run:
     1)Clone the project
-    3)Run the OSS.java to start the GUI
-    3)Upload the data file
+    3)Run the GUITMS.java to start the GUI version or CommandLineTMS to start the command line version
+    3)Upload the testData.txt file
