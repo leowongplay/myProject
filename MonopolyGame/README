@@ -1,0 +1,8 @@
+Introduction:
+    This is a command line monopoly game of course COMP3211 Software engineering.
+    Project structure: Group project
+Languages:
+    Java
+How to run:
+    1)Clone the project
+    2)Run the /src/main/java/com/monopoly/MonopolyGame.java to start
