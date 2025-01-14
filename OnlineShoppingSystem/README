@@ -1,0 +1,8 @@
+Introduction:
+    This is a online shopping system of course COMP2411 Database System.
+Languages:
+    SQL, Java
+How to run:
+    1)Clone the project
+    2)Change the database url of Database.java
+    3)Run the OSS.java to start

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "200752503258",
+    "firebase_url": "https://grp2ecommerce-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "grp2ecommerce",
+    "storage_bucket": "grp2ecommerce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200752503258:android:a15af098a150337b7348e3",
+        "android_client_info": {
+          "package_name": "com.example.comp4342mobilecomputing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyHLk6KoVQoOIIplIVWfyRdVYdxYTod5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200752503258:android:747374f22ff8928b7348e3",
+        "android_client_info": {
+          "package_name": "com.example.comp4342mobilecomputinggroupproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyHLk6KoVQoOIIplIVWfyRdVYdxYTod5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200752503258:android:1976e9c7547e1bb17348e3",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyHLk6KoVQoOIIplIVWfyRdVYdxYTod5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

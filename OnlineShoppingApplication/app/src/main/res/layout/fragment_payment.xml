@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="414dp"
+        android:layout_height="732dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageButton
+            android:backgroundTint="#FFFFFF"
+            android:id="@+id/bitcoin"
+            android:layout_width="175dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/bitcoin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            tools:src="@drawable/bitcoin"
+            tools:srcCompat="@drawable/bitcoin" />
+
+        <ImageButton
+            android:id="@+id/alipay"
+            android:layout_width="175dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/alipay"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/applePay"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            tools:src="@drawable/alipay" />
+
+        <ImageButton
+            android:id="@+id/mastercard"
+            android:layout_width="175dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#FFFFFF"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mastercard"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wechatPay"
+            tools:src="@drawable/mastercard" />
+
+        <ImageButton
+            android:id="@+id/visa"
+            android:layout_width="175dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/visa"
+            android:backgroundTint="#FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/alipay" />
+
+        <ImageButton
+            android:id="@+id/wechatPay"
+            android:layout_width="175dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/wechat"
+            android:backgroundTint="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bitcoin"
+            tools:src="@drawable/wechat" />
+
+        <ImageButton
+            android:id="@+id/applePay"
+            android:layout_width="175dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="65dp"
+            android:src="@drawable/applepay"
+            android:backgroundTint="#FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Payment Method"
+            android:textSize="34sp"
+            android:backgroundTint="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="bitcoin,applePay,alipay,wechatPay,mastercard,visa" />
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#ffffff"
+            android:src="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
