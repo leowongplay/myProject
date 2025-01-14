@@ -5,5 +5,5 @@ Languages:
     Java
 How to run:
     1)Clone the project
-    3)Run the GUITMS.java to start the GUI version or CommandLineTMS to start the command line version
+    2)Run the GUITMS.java to start the GUI version or CommandLineTMS to start the command line version
     3)Upload the testData.txt file
