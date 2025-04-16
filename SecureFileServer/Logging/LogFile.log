@@ -1,0 +1,74 @@
+{"Time":"2025-03-27 01:43:38", "Action": "Server Started", "IP": "0.0.0.0", "Status" : "Success", "Message": "Port = 8000"}
+{"Time":"2025-03-27 01:43:41", "Action": "Client Connected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-03-27 01:43:55", "Action": "Admin Login", "IP": "127.0.0.1", "Username": "admin1", "Status": "Success"}
+{"Time":"2025-03-27 01:44:09", "Action": "Get Logging", "IP": "127.0.0.1", "Username": "admin1", "Status" : "Success"}
+{"Time":"2025-03-27 01:44:48", "Action": "Client Disconnected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-03-27 01:48:31", "Action": "Client Connected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-03-27 01:48:47", "Action": "Admin Login", "IP": "127.0.0.1", "Username": "admin1", "Status": "Success"}
+{"Time":"2025-03-27 01:48:55", "Action": "Get Logging", "IP": "127.0.0.1", "Username": "admin1", "Status" : "Success"}
+{"Time":"2025-03-27 01:49:02", "Action": "User Logout", "IP": "127.0.0.1", "Username": "admin1", "Status" : "Success"}
+{"Time":"2025-03-27 01:49:06", "Action": "Client Disconnected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-03-27 01:50:10", "Action": "Client Connected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-03-27 01:50:18", "Action": "User Login", "IP": "127.0.0.1", "Username": "user2", "Status": "Success"}
+{"Time":"2025-03-27 01:51:09", "Action": "Get Public Key", "IP": "127.0.0.1", "Username": "user2", "Status" : "Success"}
+{"Time":"2025-03-27 01:51:09", "Action": "File Upload", "IP": "127.0.0.1", "Username": "user2", "Filename": "天空塌下前.txt", "FileID" : "2", "Status" : "Success"}
+{"Time":"2025-03-27 01:51:29", "Action": "Get Public Key", "IP": "127.0.0.1", "Username": "user1", "Status" : "Success"}
+{"Time":"2025-03-27 01:51:29", "Action": "File Share", "IP": "127.0.0.1", "Username": "user2", "Filename": "天空塌下前.txt", "FileID" : "2", "Status" : "Success", "Message" : "Shared To 'user1'"}
+{"Time":"2025-03-27 01:51:33", "Action": "File Get Data", "IP": "127.0.0.1", "Username": "user2", "Filename": "天空塌下前.txt", "FileID" : "2", "Status" : "Success"}
+{"Time":"2025-03-27 01:51:46", "Action": "File Download", "IP": "127.0.0.1", "Username": "user2", "Filename": "天空塌下前.txt", "FileID" : "2", "Status" : "Success"}
+{"Time":"2025-03-27 01:52:09", "Action": "Get Public Key", "IP": "127.0.0.1", "Username": "user1", "Status" : "Success"}
+{"Time":"2025-03-27 01:52:09", "Action": "File Unshare", "IP": "127.0.0.1", "Username": "user2", "Filename": "天空塌下前.txt", "FileID" : "2", "Status" : "Success", "Message" : "Unshared To 'user1'"}
+{"Time":"2025-03-27 01:52:45", "Action": "Get Public Key", "IP": "127.0.0.1", "Username": "user1", "Status" : "Success"}
+{"Time":"2025-03-27 01:52:45", "Action": "File Share", "IP": "127.0.0.1", "Username": "user2", "Filename": "天空塌下前.txt", "FileID" : "2", "Status" : "Success", "Message" : "Shared To 'user1'"}
+{"Time":"2025-03-27 01:52:51", "Action": "User Logout", "IP": "127.0.0.1", "Username": "user2", "Status" : "Success"}
+{"Time":"2025-03-27 01:53:01", "Action": "Admin Login", "IP": "127.0.0.1", "Username": "admin1", "Status": "Success"}
+{"Time":"2025-03-27 01:53:10", "Action": "Get Logging", "IP": "127.0.0.1", "Username": "admin1", "Status" : "Success"}
+{"Time":"2025-03-27 01:53:46", "Action": "Get Logging", "IP": "127.0.0.1", "Username": "admin1", "Status" : "Success"}
+{"Time":"2025-03-27 01:55:09", "Action": "User Logout", "IP": "127.0.0.1", "Username": "admin1", "Status" : "Success"}
+{"Time":"2025-03-27 01:55:12", "Action": "Client Disconnected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-07 23:57:34", "Action": "Server Started", "IP": "0.0.0.0", "Status" : "Success", "Message": "Port = 8000"}
+{"Time":"2025-04-07 23:58:12", "Action": "Client Connected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-07 23:58:55", "Action": "Client Connected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-07 23:59:02", "Action": "User Login", "IP": "127.0.0.1", "Username": "user1", "Status": "Success"}
+{"Time":"2025-04-08 00:02:21", "Action": "Client Connected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:03:53", "Action": "User Register", "IP": "127.0.0.1", "Status" : "Failed", "Message" : "invalid literal for int() with base 10: ''"}
+{"Time":"2025-04-08 00:03:53", "Action": "Client Disconnected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:04:11", "Action": "Client Connected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:05:46", "Action": "Client Connected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:07:02", "Action": "Client Connected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:08:19", "Action": "User Register", "IP": "127.0.0.1", "Status" : "Failed", "Message" : "invalid literal for int() with base 10: ''"}
+{"Time":"2025-04-08 00:08:19", "Action": "Client Disconnected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:08:19", "Action": "Client Connected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:08:35", "Action": "User Register", "IP": "127.0.0.1", "Username": "userW", "Status" : "Success"}
+{"Time":"2025-04-08 00:09:06", "Action": "Client Disconnected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:09:20", "Action": "User Register", "IP": "127.0.0.1", "Status" : "Failed", "Message" : "invalid literal for int() with base 10: ''"}
+{"Time":"2025-04-08 00:09:20", "Action": "Client Disconnected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:10:31", "Action": "User Register", "IP": "127.0.0.1", "Status" : "Failed", "Message" : "invalid literal for int() with base 10: ''"}
+{"Time":"2025-04-08 00:10:31", "Action": "Client Disconnected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:10:34", "Action": "User Register", "IP": "127.0.0.1", "Status" : "Failed", "Message" : "invalid literal for int() with base 10: ''"}
+{"Time":"2025-04-08 00:10:34", "Action": "Client Disconnected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:10:36", "Action": "Client Disconnected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:12:32", "Action": "Server Started", "IP": "0.0.0.0", "Status" : "Success", "Message": "Port = 8000"}
+{"Time":"2025-04-08 00:12:35", "Action": "Client Connected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:12:50", "Action": "User Register", "IP": "127.0.0.1", "Username": "userA", "Status" : "Success"}
+{"Time":"2025-04-08 00:13:17", "Action": "Get Public Key", "IP": "127.0.0.1", "Username": "userA", "Status" : "Success"}
+{"Time":"2025-04-08 00:13:17", "Action": "File Upload", "IP": "127.0.0.1", "Username": "userA", "Filename": "Hello.txt", "FileID" : "3", "Status" : "Success"}
+{"Time":"2025-04-08 00:13:24", "Action": "File Get Data", "IP": "127.0.0.1", "Username": "userA", "Filename": "Hello.txt", "FileID" : "3", "Status" : "Success"}
+{"Time":"2025-04-08 00:13:45", "Action": "Get Public Key", "IP": "127.0.0.1", "Username": "userA", "Status" : "Success"}
+{"Time":"2025-04-08 00:13:45", "Action": "File Edit", "IP": "127.0.0.1", "Username": "userA", "Filename": "Hello.txt", "FileID" : "3", "Status" : "Success"}
+{"Time":"2025-04-08 00:14:06", "Action": "File Download", "IP": "127.0.0.1", "Username": "userA", "Filename": "ip-ethereal-trace-1", "FileID" : "3", "Status" : "Success"}
+{"Time":"2025-04-08 00:14:16", "Action": "File Delete", "IP": "127.0.0.1", "Username": "userA", "Filename": "ip-ethereal-trace-1", "FileID" : "3", "Status" : "Success"}
+{"Time":"2025-04-08 00:14:43", "Action": "Get Public Key", "IP": "127.0.0.1", "Username": "userA", "Status" : "Success"}
+{"Time":"2025-04-08 00:14:43", "Action": "File Upload", "IP": "127.0.0.1", "Username": "userA", "Filename": "天空塌下前.txt", "FileID" : "4", "Status" : "Success"}
+{"Time":"2025-04-08 00:14:49", "Action": "Client Connected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:15:03", "Action": "User Register", "IP": "127.0.0.1", "Username": "userB", "Status" : "Success"}
+{"Time":"2025-04-08 00:15:26", "Action": "Get Public Key", "IP": "127.0.0.1", "Username": "userB", "Status" : "Success"}
+{"Time":"2025-04-08 00:15:26", "Action": "File Share", "IP": "127.0.0.1", "Username": "userA", "Filename": "天空塌下前.txt", "FileID" : "4", "Status" : "Success", "Message" : "Shared To 'userB'"}
+{"Time":"2025-04-08 00:15:40", "Action": "File Get Data", "IP": "127.0.0.1", "Username": "userB", "Filename": "天空塌下前.txt", "FileID" : "4", "Status" : "Success"}
+{"Time":"2025-04-08 00:15:57", "Action": "User Logout", "IP": "127.0.0.1", "Username": "userB", "Status" : "Success"}
+{"Time":"2025-04-08 00:16:06", "Action": "Admin Login", "IP": "127.0.0.1", "Username": "admin1", "Status": "Success"}
+{"Time":"2025-04-08 00:16:17", "Action": "Get Logging", "IP": "127.0.0.1", "Username": "admin1", "Status" : "Success"}
+{"Time":"2025-04-08 00:16:40", "Action": "User Logout", "IP": "127.0.0.1", "Username": "userA", "Status" : "Success"}
+{"Time":"2025-04-08 00:16:42", "Action": "User Logout", "IP": "127.0.0.1", "Username": "admin1", "Status" : "Success"}
+{"Time":"2025-04-08 00:17:48", "Action": "Client Disconnected", "IP": "127.0.0.1", "Status" : "Success"}
+{"Time":"2025-04-08 00:17:51", "Action": "Client Disconnected", "IP": "127.0.0.1", "Status" : "Success"}
